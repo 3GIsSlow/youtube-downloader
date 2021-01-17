@@ -21,7 +21,7 @@ app.post('/download', (req, res) => {
     const id = uniqid();
 
     ytdl(link).pipe(fs.createWriteStream(`${id}.mp4`)).on('finish', () => {
-        console.log(`Finished downloading: ${id}`);
+        console.log(`Finished downloading - ${id}`);
 
         res.json({
             id: id
