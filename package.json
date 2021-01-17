@@ -1,0 +1,23 @@
+{
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "description": "A simple web app that can be self-hosted to allow you to download youtube videos.",
+  "private": "true",
+  "scripts": {
+    "init-client": "cd client && npm install && npm run build",
+    "init-server": "cd server && npm install",
+    "install": "npm run init-client && npm run init-server && cd server",
+    "start": "cd server && node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3GIsSlow/youtube-downloader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3GIsSlow/youtube-downloader/issues"
+  },
+  "homepage": "https://github.com/3GIsSlow/youtube-downloader#readme"
+}
