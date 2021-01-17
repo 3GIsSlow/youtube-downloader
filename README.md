@@ -11,7 +11,7 @@ npm install
 
 This will download and install all packages for the client and server.
 
-**Start Server**
+### Start Server
 The following command will start the server.
 ```bash
 npm start
